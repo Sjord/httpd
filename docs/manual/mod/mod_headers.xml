@@ -415,7 +415,7 @@ available in 2.4.10 and later</compatibility>
 
 
     <dt><code>setifempty</code></dt>
-    <dd>The request header is set, but only if there is no previous header
+    <dd>The response header is set, but only if there is no previous header
     with this name.
     <br/><br/><p>Choosing a <var>condition</var>: If the target header to conditionally set was added by this module, you must match the condition
     parameter that was originally used. Otherwise, you must determine by experimentation
